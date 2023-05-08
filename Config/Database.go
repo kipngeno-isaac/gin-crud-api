@@ -1,4 +1,4 @@
-package Configimport
+package Config
 
 import (
 	"fmt"
@@ -20,8 +20,8 @@ func BuildDBConfig() *DBConfig {
 		Host:     "localhost",
 		Port:     3306,
 		User:     "root",
-		Password: "",
-		DBName:   "",
+		Password: "password",
+		DBName:   "gin_crud_api_db",
 	}
 	return &dbConfig
 }

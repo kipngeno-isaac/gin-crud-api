@@ -1,4 +1,4 @@
-package Routesimport
+package Routes
 
 import (
 	"gin-crud-api/Controllers"

@@ -1,8 +1,10 @@
-package mainimport
+package main
 
 import (
 	"fmt"
+	"gin-crud-api/Config"
 	"gin-crud-api/Models"
+	"gin-crud-api/Routes"
 	"github.com/jinzhu/gorm"
 )
 

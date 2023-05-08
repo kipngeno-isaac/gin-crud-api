@@ -2,6 +2,7 @@ package Models
 
 import (
 	"fmt"
+	"gin-crud-api/Config"
 	_ "github.com/go-sql-driver/mysql"
 )
 
